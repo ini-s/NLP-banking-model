@@ -1,5 +1,494 @@
 text,label
-"I want to check my balance",balance_inquiry
-"I forgot my pin",pin_reset
-"My ATM card was swallowed",card_issue
-"Why was money deducted from my account?",complaint
+"Why did you deduct money from my account?",transactions
+"I saw debit alert that I did not authorize",transactions
+"Can you explain this debit on my account?",transactions
+"My account balance just reduced by itself",transactions
+"There is one debit I don't understand",transactions
+"Money has disappeared from my account",transactions
+"Who authorized this debit transaction?",transactions
+"I got debit alert but I didn't spend money",transactions
+"I didn't do any transaction but money reduced",transactions
+"My account is going into minus",transactions
+"Where did this money in my account come from?",transactions
+"I received credit alert from unknown person",transactions
+"Who sent me this money I'm seeing?",transactions
+"My salary has not entered my account",transactions
+"There is money in my account that I didn't expect",transactions
+"The transfer I was expecting has not come",transactions
+"Has my alert entered yet?",transactions
+"Can you check if my payment has entered?",transactions
+"This credit in my account is not familiar",transactions
+"The money my brother sent has not entered",transactions
+"What is the dollar to naira rate today?",transactions
+"How much is dollar now?",transactions
+"I want to change my dollars to naira",transactions
+"What are your rates for foreign currency?",transactions
+"How much is pounds to naira?",transactions
+"What is the euro exchange rate?",transactions
+"How much does international transfer cost?",transactions
+"The FX charges are too much",transactions
+"What rate will you use for my dollar card?",transactions
+"When is the best time to buy dollar?",transactions
+"Please reverse that transaction for me",transactions
+"The money deducted but didn't enter recipient account",transactions
+"I want my money back for failed transaction",transactions
+"The failed transaction has not been reversed",transactions
+"Please refund my money immediately",transactions
+"I was charged two times for one purchase",transactions
+"POS transaction failed but you took my money",transactions
+"The reversal has not reflected in my account",transactions
+"How long does refund take to show?",transactions
+"You charged me twice for the same thing",transactions
+"The POS is not working",transactions
+"POS machine declined my card",transactions
+"Supermarket POS rejected my transaction",transactions
+"POS is having network issues",transactions
+"The merchant POS charged extra money",transactions
+"What is the transaction limit for POS?",transactions
+"I didn't get alert for my POS transaction",transactions
+"POS collected money but payment didn't go through",transactions
+"Where are the POS agents around me?",transactions
+"My POS transfer failed to deliver",transactions
+"The ATM swallowed my card",transactions
+"The ATM didn't give me money",transactions
+"ATM said insufficient funds but I have money",transactions
+"The ATM machine is faulty",transactions
+"My card got stuck inside the machine",transactions
+"The ATM didn't dispense any cash",transactions
+"Which ATMs are working in my area now?",transactions
+"There is ATM network problem",transactions
+"How much is the charge for ATM withdrawal?",transactions
+"What is the daily limit for ATM withdrawal?",transactions
+"The mobile app is not working",transactions
+"My mobile transfer is failing to go through",transactions
+"The ALAT app keeps crashing on my phone",transactions
+"How do I transfer money using mobile app?",transactions
+"I can't login to my mobile banking",transactions
+"The app is not showing my correct balance",transactions
+"Where can I see my transaction history on mobile?",transactions
+"What is the transfer limit on mobile banking?",transactions
+"The app says I need to update but it's not working",transactions
+"Is mobile banking secure for transactions?",transactions
+"The USSD code is not working",transactions
+"What is the USSD code to check balance?",transactions
+"How do I access USSD banking menu?",transactions
+"My USSD transfer failed to complete",transactions
+"There is network problem with USSD banking",transactions
+"How do I use USSD banking service?",transactions
+"What is the USSD code for transfers?",transactions
+"The USSD is not responding to my commands",transactions
+"What code do I use to buy airtime?",transactions
+"The USSD service is not available now",transactions
+"My account is deducting money every day",transactions
+"The maintenance fee is too much",transactions
+"I'm being charged for SMS every day",transactions
+"Bank charges are eating my money",transactions
+"There was unauthorized transfer from my account",transactions
+"Someone transferred money from my account without permission",transactions
+"I think my account has been hacked",transactions
+"There is transaction I didn't authorize",transactions
+"I suspect fraudulent activity on my account",transactions
+"My money has been missing since yesterday",transactions
+"Where is my money that was sent?",transactions
+"My transaction has been pending since morning",transactions
+"The transfer is not going through at all",transactions
+"My payment is hanging",transactions
+"The transaction is taking too long to process",transactions
+"There is network delay affecting transfers",transactions
+"How long does interbank transfer take?",transactions
+"The transfer to other bank hasn't been delivered",transactions
+"The person I sent money to didn't receive it",transactions
+"Transfer failed but money was deducted",transactions
+"Failed transaction hasn't been refunded",transactions
+"The transaction reversal is delayed",transactions
+"The refund hasn't entered my account",transactions
+"I was charged for transaction that failed",transactions
+"The bank collected money for nothing",transactions
+"There is transaction fee I don't recognize",transactions
+"There are hidden charges on my transfers",transactions
+"The COT is too much",transactions
+"Why stamp duty on every transaction?",transactions
+"The transfer fees have increased",transactions
+"Bank charges are reducing my money",transactions
+"What is this monthly account maintenance fee?",transactions
+"Why VAT on bank charges?",transactions
+"My transaction limit has finished",transactions
+"My daily transfer limit is exhausted",transactions
+"I want to increase my transaction limit",transactions
+"The transaction limit is too small for me",transactions
+"How can I increase my transfer limit?",transactions
+"What is the limit for POS transactions?",transactions
+"What is ATM withdrawal limit?",transactions
+"What is mobile transfer maximum amount?",transactions
+"What is USSD transaction limit?",transactions
+"My transaction history is not complete",transactions
+"The statement doesn't show all my transactions",transactions
+"How do I download my transaction history?",transactions
+"I want to print my account statement",transactions
+"Can I get my transaction record for last month?",transactions
+"I need all my debits for December",transactions
+"I want credits for this month",transactions
+"There is error in my transaction statement",transactions
+"Some transactions are missing from statement",transactions
+"The transaction date is wrong",transactions
+"The transaction time is incorrect",transactions
+"The alert came very late",transactions
+"There is delay in SMS alerts",transactions
+"I didn't receive alert for my transfer",transactions
+"No alert came for the debit transaction",transactions
+"Transaction happened without notification",transactions
+"I'm having problems with bank alerts",transactions
+"I'm not receiving SMS notifications",transactions
+"My international transaction was declined",transactions
+"I'm having trouble with overseas transfers",transactions
+"My foreign transaction was blocked",transactions
+"The dollar payment is not going through",transactions
+"International POS declined my transaction",transactions
+"My online foreign payment failed",transactions
+"I'm having issues with transactions abroad",transactions
+"How do I set travel notification for card?",transactions
+"I want to stop recurring payment",transactions
+"How do I stop automatic deduction?",transactions
+"I need to cancel standing order",transactions
+"I want to stop recurring charge I don't want anymore",transactions
+"Monthly subscription I cancelled is still charging",transactions
+"Auto-debit is still happening",transactions
+"How do I remove recurring payment?",transactions
+"I need transaction receipt",transactions
+"I need proof of payment",transactions
+"What is my transaction reference number?",transactions
+"I need payment confirmation",transactions
+"Can I get transfer slip?",transactions
+"I need evidence of my transaction",transactions
+"Can I get payment confirmation message?",transactions
+"The ATM is not accepting my card",card
+"The machine swallowed my card",card
+"The ATM rejected my card",card
+"My card is not working in any ATM",card
+"The ATM says invalid card",card
+"My card got stuck inside the machine",card
+"The ATM kept my card inside",card
+"The machine didn't return my card",card
+"The ATM captured my card",card
+"My card was retained by ATM",card
+"The POS is not collecting my card",card
+"My card was declined at POS",card
+"POS machine says card error",card
+"Supermarket didn't accept my card",card
+"My card is not working on merchant POS",card
+"POS terminal rejected my card",card
+"There is card reading problem on POS",card
+"POS says insert card instead of tap",card
+"Card swipe is not working",card
+"POS card chip has issue",card
+"Where do I go to pick my new card?",card
+"Is my card ready for pickup?",card
+"Which branch for card collection?",card
+"When will my card be ready?",card
+"Where is the card pickup location?",card
+"What documents do I need for card collection?",card
+"Can someone else pick my card for me?",card
+"Can my card be delivered to my house?",card
+"When is the pickup deadline for card?",card
+"What time can I collect my card?",card
+"I want to block my card",card
+"My card is lost, please block it quickly",card
+"Please stop my card immediately",card
+"My card was stolen, please block it",card
+"I need emergency card blockage",card
+"Can you temporarily block my card?",card
+"I want to unblock my card",card
+"Please remove card blockage",card
+"I want to reactivate my blocked card",card
+"Please remove the block on my card",card
+"I need a new card",card
+"I want to request replacement card",card
+"How do I apply for debit card?",card
+"I want to order new ATM card",card
+"I want to upgrade my card",card
+"How do I get virtual card?",card
+"I want to request dollar card",card
+"I need additional card for my account",card
+"I want to reissue my card",card
+"What are requirements for premium card?",card
+"My card is missing",card
+"I have lost my card",card
+"My card is not in my wallet",card
+"I have misplaced my debit card",card
+"I want to report card theft",card
+"What is procedure for lost card?",card
+"My card that I can't find",card
+"My card has been missing since yesterday",card
+"I can't find my card anywhere",card
+"Where is my card?",card
+"Someone used my card without my permission",card
+"There was unauthorized card transaction",card
+"I have fraud alert on my card",card
+"Someone used my stolen card",card
+"I think my card was cloned",card
+"There are fraudulent card purchases",card
+"My card was used by another person",card
+"There was unauthorized online card payment",card
+"My card security has been breached",card
+"I forgot my PIN",card
+"I need PIN reset for my card",card
+"I want to change my card PIN",card
+"I need to setup new PIN",card
+"I have forgotten my card PIN",card
+"I need to reset my ATM PIN",card
+"How do I recover my card PIN?",card
+"I need to change my default PIN",card
+"My PIN is locked",card
+"I entered wrong PIN too many times",card
+"My card is not working",card
+"There is switch error for my card",card
+"My card has network problem",card
+"There is technical error with my card",card
+"There is system error for card transactions",card
+"My card was declined due to switch",card
+"Network is down for card transactions",card
+"My card has temporary issue",card
+"Card system is under maintenance",card
+"There is global card problem",card
+"My card has expired",card
+"My card expiry date has reached",card
+"I need expired card replacement",card
+"My card validity has finished",card
+"I received card expiration notice",card
+"How do I renew expired card?",card
+"My card will expire soon",card
+"My card is about to expire",card
+"What is expiry date for my card?",card
+"What is card renewal process?",card
+"My card is damaged",card
+"My card chip is spoiled",card
+"My card strip is not working",card
+"My card is bent",card
+"My card is torn",card
+"My card has physical damage",card
+"There is card reading problem",card
+"My chip card has issues",card
+"My card magnetic strip is faulty",card
+"I need damaged card replacement",card
+"My card delivery is delayed",card
+"My new card hasn't arrived",card
+"Card production is taking too long",card
+"When will you deliver my card?",card
+"What is my card dispatch status?",card
+"How do I track my card delivery?",card
+"Which courier service for card delivery?",card
+"What is card production timeline?",card
+"There is card processing delay",card
+"There are card manufacturing issues",card
+"I have card activation problem",card
+"How do I activate new card?",card
+"My card is not active",card
+"I need activation code for card",card
+"How do I make my card work?",card
+"What is card activation procedure?",card
+"How do I activate card via USSD?",card
+"How do I activate card through customer care?",card
+"This is my first time using card",card
+"My card is not working after activation",card
+"I have card limit issues",card
+"What is card transaction limit?",card
+"What is daily card spending limit?",card
+"I want to increase my card limit",card
+"What is card withdrawal maximum?",card
+"What is POS limit for card?",card
+"What is international card limit?",card
+"What is online card limit?",card
+"How do I reset card limit?",card
+"I need temporary limit increase",card
+"I have card security concerns",card
+"What are card security tips?",card
+"How do I protect card from fraud?",card
+"What are card safety measures?",card
+"How do I use card securely?",card
+"How do I prevent card skimming?",card
+"What are card security features?",card
+"How do I keep my CVV secure?",card
+"How do I keep my card PIN safe?",card
+"What are the different card types?",card
+"Which card is good for my needs?",card
+"What is difference between debit and credit card?",card
+"Can you compare card benefits?",card
+"What are premium card features?",card
+"How do I use card internationally?",card
+"What are dollar card benefits?",card
+"Which card is good for travel?",card
+"What is multi-currency card?",card
+"Which card is good for online shopping?",card
+"I have questions about card fees",card
+"What are card maintenance charges?",card
+"How much is annual card fee?",card
+"How much does card issuance cost?",card
+"How much is replacement card fee?",card
+"Can you waive my card charge?",card
+"Please explain card fees to me",card
+"What are card service charges?",card
+"Are there hidden card fees?",card
+"How much is card delivery charge?",card
+"I have card linking issues",card
+"My card is not linked to my account",card
+"How do I link card to mobile banking?",card
+"My card is not connected to account",card
+"My card is not reflecting in app",card
+"Can I have multiple cards for one account?",card
+"How is card linked to primary account?",card
+"How is card mapped to account?",card
+"I need to update my card profile",card
+"I need card personalization",card
+"How do I fix my Toyota Corolla engine?",unsupported
+"Where can I buy iPhone in Lagos?",unsupported
+"Which restaurant has the best pepper soup?",unsupported
+"What were the football match results yesterday?",unsupported
+"Where can I buy quality shoes in Aba?",unsupported
+"How do I cook jollof rice properly?",unsupported
+"What is the maintenance cost for BMW in Nigeria?",unsupported
+"I have plumbing problems with my toilet",unsupported
+"Where can I watch latest Nollywood movies?",unsupported
+"Which university is best for medicine?",unsupported
+"What are the current hairstyle trends for ladies?",unsupported
+"Where can I buy original Samsung phone?",unsupported
+"How do I repair my generator?",unsupported
+"What are real estate prices in Lekki?",unsupported
+"What are the fashion trends for men?",unsupported
+"Where can I learn programming in Abuja?",unsupported
+"Which phone is best under 50,000 naira?",unsupported
+"How do I treat malaria at home?",unsupported
+"Where can I buy wedding gown in Ikeja?",unsupported
+"Any football betting tips for today?",unsupported
+"Where can I find Mercedes Benz spare parts?",unsupported
+"Which secondary school is best in Port Harcourt?",unsupported
+"Where can I buy laptop on credit?",unsupported
+"How do I make small chops for party?",unsupported
+"What are the latest songs by Burna Boy?",unsupported
+"Where can I learn fashion design?",unsupported
+"What are house rent prices in Gwarinpa?",unsupported
+"Which gym is best in Victoria Island?",unsupported
+"Where can I buy original perfume?",unsupported
+"How do I start okada business?",unsupported
+"What are the politics news for today?",unsupported
+"Where can I buy quality Ankara fabric?",unsupported
+"Which hospital is best for childbirth?",unsupported
+"How do I apply for visa to Canada?",unsupported
+"Where can I watch English Premier League?",unsupported
+"Where is car wash near my location?",unsupported
+"Which barbing salon is best in Surulere?",unsupported
+"Where can I buy PlayStation 5?",unsupported
+"How do I start importation business?",unsupported
+"What is weather forecast for tomorrow?",unsupported
+"Where can I learn makeup artistry?",unsupported
+"Which place is best to buy land in Ibadan?",unsupported
+"How do I bake chin chin?",unsupported
+"What are the latest Nigeria news headlines?",unsupported
+"Where can I buy original gold jewelry?",unsupported
+"Which driving school is best in Abuja?",unsupported
+"How do I treat typhoid fever?",unsupported
+"Where can I buy building materials?",unsupported
+"Which fitness exercise is good for weight loss?",unsupported
+"Which hotel is best for wedding reception?",unsupported
+"Where can I buy computer accessories?",unsupported
+"How do I plant maize and cassava?",unsupported
+"What are the entertainment news about celebrities?",unsupported
+"Where can I buy quality school uniform?",unsupported
+"Which pharmacy is best near me?",unsupported
+"How do I write business proposal?",unsupported
+"Where can I learn hairdressing?",unsupported
+"Who is good real estate agent in Lagos?",unsupported
+"Which place is best to buy frozen chicken?",unsupported
+"Where can I get passport photos?",unsupported
+"How do I repair air conditioner?",unsupported
+"What are the football transfer news?",unsupported
+"Where can I buy kitchen utensils?",unsupported
+"Who is the best tailor in my area?",unsupported
+"How do I start YouTube channel?",unsupported
+"Where can I buy original honey?",unsupported
+"Which car insurance companies are in Nigeria?",unsupported
+"Which place is best to buy electronics?",unsupported
+"Where can I learn catering?",unsupported
+"How do I treat skin infection?",unsupported
+"Where are movie cinemas in Lagos?",unsupported
+"Where can I buy children clothes?",unsupported
+"Which internet service provider is best?",unsupported
+"How do I make fruit juice?",unsupported
+"Where can I buy exercise equipment?",unsupported
+"Which travel agency is good for Dubai trip?",unsupported
+"Which place is best to buy furniture?",unsupported
+"Where can I learn graphic design?",unsupported
+"How do I repair laptop screen?",unsupported
+"Where are basketball courts in Abuja?",unsupported
+"Where can I buy musical instruments?",unsupported
+"Which printing press is good for wedding cards?",unsupported
+"How do I make soap at home?",unsupported
+"Where can I buy pet food for dog?",unsupported
+"Where are photography studios in Port Harcourt?",unsupported
+"Which place is best to buy car tyres?",unsupported
+"Where can I learn English language?",unsupported
+"How do I treat common cold?",unsupported
+"Where are swimming pools in Lagos?",unsupported
+"Where can I buy original wine?",unsupported
+"Which cleaning services company is best?",unsupported
+"How do I start farming business?",unsupported
+"Where can I buy sports jersey?",unsupported
+"Who provides event planning services?",unsupported
+"Which place is best to buy air conditioner?",unsupported
+"Where can I learn computer repairs?",unsupported
+"How do I treat stomach pain?",unsupported
+"Where are art galleries in Lagos?",unsupported
+"Where can I buy baby products?",unsupported
+"Which security company is good for house?",unsupported
+"How do I make fried plantain?",unsupported
+"Where can I buy books in Lagos?",unsupported
+"Where are music production studios?",unsupported
+"Which place is best to buy generator?",unsupported
+"Where can I learn welding work?",unsupported
+"How do I treat headache?",unsupported
+"Where are beach resorts in Nigeria?",unsupported
+"Where can I buy office equipment?",unsupported
+"Which interior decoration company is best?",unsupported
+"How do I start pure water business?",unsupported
+"Where can I buy musical CDs?",unsupported
+"Who provides translation services in Abuja?",unsupported
+"Which place is best to buy refrigerator?",unsupported
+"Where can I learn barbing?",unsupported
+"How do I treat back pain?",unsupported
+"Where are amusement parks in Nigeria?",unsupported
+"Where can I buy camping equipment?",unsupported
+"Which dry cleaning services are best?",unsupported
+"How do I make palm oil?",unsupported
+"Where can I buy party decorations?",unsupported
+"Who provides video editing services?",unsupported
+"Which place is best to buy microwave oven?",unsupported
+"Where can I learn plumbing?",unsupported
+"How do I treat toothache?",unsupported
+"Where is bowling alley in Lagos?",unsupported
+"Where can I buy art materials?",unsupported
+"Which catering services are best?",unsupported
+"How do I start restaurant business?",unsupported
+"Where can I buy traditional attire?",unsupported
+"Who are web design companies?",unsupported
+"Which place is best to buy washing machine?",unsupported
+"Where can I learn electrical work?",unsupported
+"How do I treat eye infection?",unsupported
+"Where are golf courses in Nigeria?",unsupported
+"Where can I buy fishing equipment?",unsupported
+"Which moving company is best?",unsupported
+"How do I make local soap?",unsupported
+"Where can I buy wedding cake?",unsupported
+"Who provides social media management services?",unsupported
+"Which place is best to buy television?",unsupported
+"Where can I learn masonry?",unsupported
+"How do I treat fever?",unsupported
+"Where are tennis courts in Abuja?",unsupported
+"Where can I buy gardening tools?",unsupported
+"Which laundry services are best?",unsupported
+"How do I start bakery business?",unsupported
+"Where can I buy traditional medicine?",unsupported
+"Who provides SEO services in Nigeria?",unsupported
+"Which place is best to buy water heater?",unsupported
+"Where can I learn carpentry?",unsupported
+"How do I treat cough?",unsupported
+"Where are yoga classes in Lagos?",unsupported
+"Where can I buy boxing equipment?",unsupported
